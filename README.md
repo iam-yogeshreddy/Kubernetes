@@ -23,4 +23,6 @@ In docker if container downs,our application will not accessible and in this tim
 Kubernetes provides auto healing feature whenever container in pod going down before container goes down kubernetes will creates a new pod and starts that container. Kubernetes in maximum times can control the damage and fix the damage with auto healing feature. 
 
 4. 𝑨𝒖𝒕𝒐 𝑺𝒄𝒂𝒍𝒊𝒏𝒈
-5. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕
+
+Kubernetes provides Horizantal Pod Scaler feature which is used to whenever the load reaaching threshold of 80 % into container HPA will just spin up the container continuosly based on demand.
+6. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕
