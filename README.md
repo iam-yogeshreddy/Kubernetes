@@ -7,7 +7,7 @@ Kubernetes is a container orchestration solution platform which is enterprise re
 
 1. 𝑺𝒊𝒏𝒈𝒍𝒆 𝑯𝒐𝒔𝒕 𝑴𝒂𝒄𝒉𝒊𝒏𝒆 :
 
-In docker if one container is consuming more memory with this somewhere the 99th container may not works properly or stops running.
+In Docker Containers are Ephemeral in nature.If one container is consuming more memory with this somewhere the 99th container may not works properly or stops running.
 
 𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 :
 
@@ -20,9 +20,18 @@ In docker if container downs,our application will not accessible and in this tim
 
 𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 : 
 
-Kubernetes provides auto healing feature whenever container in pod going down before container goes down kubernetes will creates a new pod and starts that container. Kubernetes in maximum times can control the damage and fix the damage with auto healing feature. 
+Kubernetes provides auto healing feature whenever container in pod going down before container goes down kubernetes will creates a new pod and starts that container. Kubernetes in maximum times it can control the damage and fix the damage with auto healing feature. 
 
-4. 𝑨𝒖𝒕𝒐 𝑺𝒄𝒂𝒍𝒊𝒏𝒈
+4. 𝑨𝒖𝒕𝒐 𝑺𝒄𝒂𝒍𝒊𝒏𝒈 :
 
-Kubernetes provides Horizantal Pod Scaler feature which is used to whenever the load reaaching threshold of 80 % into container HPA will just spin up the container continuosly based on demand.
-6. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕
+In docker setting up a Docker Swarm with auto-clustering and auto-scaling capabilities is a powerful way to manage and scale containerized applications efficiently.But compared to kubernetes docker has less deployment speed.
+
+𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 :
+
+Kubernetes has Replica Set where we can increase our replica's to our expected requirement in yaml file which is a manual way.
+
+Kubernetes provides Horizantal Pod Scaler feature which is used means whenever the load reaaching threshold of 80 % in container,HPA will just spin up the container automatically continuosly based on requirement or demand.
+
+6. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 :
+
+Docker by default not provides enterprise level support which includes Load Balancer, Auto Scaling, Auto Healing, API Gateway, Firewall etc are very important problems which are overcomes by kubernetes.
