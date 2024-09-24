@@ -11,7 +11,7 @@ In Docker Containers are Ephemeral in nature.If one container is consuming more 
 
 𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 :
 
-Kubernetes cluster contains nodes which is a multiple node architecture,if one container in node is effecting with another container immediately kubernetes will put this container in another node.   
+-> Kubernetes cluster contains nodes which is a multiple node architecture,if one container in node is effecting with another container immediately kubernetes will put this container in another node.   
 
 
 2. 𝑨𝒖𝒕𝒐 𝑯𝒆𝒂𝒍𝒊𝒏𝒈 :
@@ -20,7 +20,7 @@ In docker if container downs,our application will not accessible and in this tim
 
 𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 : 
 
-Kubernetes provides auto healing feature whenever container in pod going down before container goes down kubernetes will creates a new pod and starts that container. Kubernetes in maximum times it can control the damage and fix the damage with auto healing feature. 
+-> Kubernetes provides auto healing feature whenever container in pod going down before container goes down kubernetes will creates a new pod and starts that container. Kubernetes in maximum times it can control the damage and fix the damage with auto healing feature. 
 
 4. 𝑨𝒖𝒕𝒐 𝑺𝒄𝒂𝒍𝒊𝒏𝒈 :
 
@@ -28,10 +28,10 @@ In docker setting up a Docker Swarm with auto-clustering and auto-scaling capabi
 
 𝑺𝒐𝒍𝒖𝒕𝒊𝒐𝒏 𝒘𝒊𝒕𝒉 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 :
 
-Kubernetes has Replica Set where we can increase our replica's to our expected requirement in yaml file which is a manual way.
+-> Kubernetes has Replica Set where we can increase our replica's to our expected requirement in yaml file which is a manual way.
 
-Kubernetes provides Horizantal Pod Scaler feature which is used means whenever the load reaaching threshold of 80 % in container,HPA will just spin up the container automatically continuosly based on requirement or demand.
+-> Kubernetes provides Horizantal Pod Scaler feature which is used means whenever the load reaaching threshold of 80 % in container,HPA will just spin up the container automatically continuosly based on requirement or demand.
 
 6. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 :
 
-Docker by default not provides enterprise level support which includes Load Balancer, Auto Scaling, Auto Healing, API Gateway, Firewall etc are very important problems which are overcomes by kubernetes.
+-> Docker by default not provides enterprise level support which includes Load Balancer, Auto Scaling, Auto Healing, API Gateway, Firewall etc are very important problems which are overcomes by kubernetes.
