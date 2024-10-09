@@ -16,3 +16,9 @@ Why Ingress :
 -> Host Based Load Balancing
 
 2 **. If we are creating a sevice of type load balancer mode ,then for each load balancer service type IP address cloud provider will charges us. 
+
+** minikube addons enable ingress : which will install ingress controller on minikube cluster
+
+** we need ingress controller to execute ingress resource.
+
+** we have to update IP address and domain name in /etc/hosts file to reach requests into the domain, if we are in minikube cluster.
