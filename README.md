@@ -1,3 +1,46 @@
+𝐖𝐡𝐚𝐭 𝐢𝐬 𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐨𝐫𝐜𝐡𝐞𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 :
+
+Container orchestration is the process of automating the management of containerized applications. It involves: 
+provisioning, deploying, scaling, securing, networking, integrating, and organizing.
+
+𝙒𝙝𝙮 𝙩𝙝𝙚 𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙗𝙚 𝙤𝙧𝙘𝙝𝙚𝙨𝙩𝙧𝙖𝙩𝙚𝙙 :
+
+Container orchestration is necessary to manage the lifecycle of containers, which can become complex when running in production. Container orchestration automates many tasks, such as deployment, scaling, and networking, which can help with: 
+Scalability :
+
+Container orchestration allows you to scale up or down based on workload requirements. 
+
+
+Security :
+
+Container orchestration helps you manage security policies across platforms and reduce human error. 
+
+
+Cost :
+
+Containers use fewer resources than virtual machines, which can reduce infrastructure and overhead costs. 
+
+
+Availability :
+
+Container orchestration can detect issues and automatically work around them to maintain high availability. 
+
+
+Portability :
+
+Containers are portable, so you can move applications between cloud providers or device types without changing code. 
+
+
+Updates :
+
+Container orchestration allows you to roll out new versions of an application across a cluster, which can reduce downtime. 
+
+
+Performance :
+
+Container orchestration can monitor performance and automatically reconfigure containers for optimal performance.
+
+
 𝑾𝒉𝒚 𝑲𝒖𝒃𝒆𝒓𝒏𝒆𝒕𝒆𝒔 : 
 
 Kubernetes is a container orchestration solution platform which is enterprise ready platform in production.And gives solution to the four main container problems ;
