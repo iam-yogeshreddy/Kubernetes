@@ -16,27 +16,22 @@ Container orchestration helps you manage security policies across platforms and 
 
 
 Cost :
-
 Containers use fewer resources than virtual machines, which can reduce infrastructure and overhead costs. 
 
 
 Availability :
-
 Container orchestration can detect issues and automatically work around them to maintain high availability. 
 
 
 Portability :
-
 Containers are portable, so you can move applications between cloud providers or device types without changing code. 
 
 
 Updates :
-
 Container orchestration allows you to roll out new versions of an application across a cluster, which can reduce downtime. 
 
 
 Performance :
-
 Container orchestration can monitor performance and automatically reconfigure containers for optimal performance.
 
 
