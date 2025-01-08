@@ -6,13 +6,12 @@ provisioning, deploying, scaling, securing, networking, integrating, and organ
 𝙒𝙝𝙮 𝙩𝙝𝙚 𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙗𝙚 𝙤𝙧𝙘𝙝𝙚𝙨𝙩𝙧𝙖𝙩𝙚𝙙 :
 
 Container orchestration is necessary to manage the lifecycle of containers, which can become complex when running in production. Container orchestration automates many tasks, such as deployment, scaling, and networking, which can help with: 
-Scalability :
 
+Scalability :
 Container orchestration allows you to scale up or down based on workload requirements. 
 
 
 Security :
-
 Container orchestration helps you manage security policies across platforms and reduce human error. 
 
 
