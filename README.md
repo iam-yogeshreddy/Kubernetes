@@ -1,11 +1,10 @@
 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐨𝐫𝐜𝐡𝐞𝐬𝐭𝐫𝐚𝐭𝐢𝐨𝐧 :
 
-Container orchestration is the process of automating the management of containerized applications. It involves: 
-provisioning, deploying, scaling, securing, networking, integrating, and organizing.
+Container orchestration is the process of automating the deployment, management, scaling, and networking of containers throughout their lifecycle, making it possible to deploy software consistently across many different environments at scale.
 
 𝙒𝙝𝙮 𝙩𝙝𝙚 𝙘𝙤𝙣𝙩𝙖𝙞𝙣𝙚𝙧 𝙣𝙚𝙚𝙙 𝙩𝙤 𝙗𝙚 𝙤𝙧𝙘𝙝𝙚𝙨𝙩𝙧𝙖𝙩𝙚𝙙 :
 
-Container orchestration is necessary to manage the lifecycle of containers, which can become complex when running in production. Container orchestration automates many tasks, such as deployment, scaling, and networking, which can help with: 
+Container orchestration is necessary to manage the lifecycle of containers, which can become complex when running in production. Container orchestration automates many tasks, such as deployment, scaling, networking of containers, Container availability, Load balancing and traffic routing and Monitoring container health which can help with: 
 
 Scalability :
 Container orchestration allows you to scale up or down based on workload requirements. 
