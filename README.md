@@ -71,3 +71,53 @@ In docker setting up a Docker Swarm with auto-clustering and auto-scaling capabi
 6. 𝑬𝒏𝒕𝒆𝒓𝒑𝒓𝒊𝒔𝒆 𝑳𝒆𝒗𝒆𝒍 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 :
 
 -> Docker by default not provides enterprise level support which includes Load Balancer, Auto Scaling, Auto Healing, API Gateway, Firewall etc are very important problems which are overcomes by kubernetes.
+
+
+
+Kubernetes :
+
+1. Cluster :
+
+A set of machines working together to run containerized applications
+
+
+2. Node :
+
+A single machine within a cluster running containers via pods
+
+
+3. Pod :
+
+The smallest deployable unit containing one or more containers
+
+
+4. Container :
+
+An isolated, executable image containing application code
+
+
+5. Deployment :
+
+Manages, Scales and updates application pods
+
+
+6. Service :
+
+Defines how pods can be accessed as a network service
+
+
+7. Namespace :
+
+A logical partition of cluster resource
+
+8. ConfigMap and Secret :
+
+Stores configuration and sensitive data for pods
+
+9. ReplicaSet :
+
+Ensures a specified number of pod replicas are running
+
+10. Kubelet :
+
+Manages pods and containers on a node.
